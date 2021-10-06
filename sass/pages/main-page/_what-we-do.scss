@@ -23,14 +23,14 @@
     width: 100%;
     height: 70px;
 
-    background-color: var(--title-area-bg-color);
+    background-color: $title-area-bg-color;
   }
 
   &__title {
     font-size: 14px;
     line-height: calc(16.41 / 14);
     letter-spacing: 0.03em;
-    color: var(--wite-color);
+    color: $wite-color;
     text-transform: uppercase;
   }
 }

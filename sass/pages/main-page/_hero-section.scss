@@ -11,12 +11,12 @@
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--background-color);
+  background-color: $background-color;
   max-width: 1600px;
 
   &__title {
     margin-bottom: 30px;
-    color: var(--wite-color);
+    color: $wite-color;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -26,7 +26,7 @@
   }
 
   &__btn:hover {
-    background-color: var(--hero-btn-hover-bg-color);
+    background-color: $hero-btn-hover-bg-color;
     box-shadow: 0px 4px 4px 0px #00000026;
   }
 }
