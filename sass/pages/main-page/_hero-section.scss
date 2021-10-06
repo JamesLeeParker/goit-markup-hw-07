@@ -13,20 +13,20 @@
   background-size: cover;
   background-color: var(--background-color);
   max-width: 1600px;
-}
 
-.hero-title {
-  margin-bottom: 30px;
-  color: var(--wite-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  text-align: center;
-}
+  &__title {
+    margin-bottom: 30px;
+    color: var(--wite-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
 
-.hero-button:hover {
-  background-color: var(--hero-btn-hover-bg-color);
-  box-shadow: 0px 4px 4px 0px #00000026;
+  &__btn:hover {
+    background-color: var(--hero-btn-hover-bg-color);
+    box-shadow: 0px 4px 4px 0px #00000026;
+  }
 }

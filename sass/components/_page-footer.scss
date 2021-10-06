@@ -5,6 +5,10 @@
   &__box {
     display: flex;
   }
+
+  &__social-net {
+    margin-top: 12px;
+  }
 }
 
 .address {
@@ -37,7 +41,9 @@
     }
   }
 }
+
 // -----------------------
+
 .social-net-footer__title {
   margin-bottom: 20px;
 
@@ -49,6 +55,7 @@
 }
 
 // ------------------------
+
 .footer-form {
   width: 100%;
   margin-top: 12px;
